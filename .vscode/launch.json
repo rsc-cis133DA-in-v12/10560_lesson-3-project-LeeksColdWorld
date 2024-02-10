@@ -5,11 +5,84 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "command": "npm start",
+            "name": "Run npm start",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "type": "node-terminal"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "type": "vscode-edge-devtools.debug",
+            "request": "launch",
+            "name": "Launch Microsoft Edge and open the Edge DevTools",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "vscode-edge-devtools.debug",
+            "request": "attach",
+            "name": "Attach to Microsoft Edge and open the Edge DevTools",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open DOCTYPE HMTL",
+            "file": "c:\\Users\\Leek\\github-classroom\\rsc-cis133DA-in-v12\\10560_lesson-3-project-LeeksColdWorld\\.github\\DOCTYPE HMTL"
         }
     ]
 }

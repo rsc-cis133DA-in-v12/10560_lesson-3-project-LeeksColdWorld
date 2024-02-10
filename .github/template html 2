@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Web Development CIS133DA  -->
+        <!-- Lesson-4-project10561  -->
+        <title>MAL2178207-Template</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Malek Farley-Gray">
+        <meta name="keywords" content="keyword1, keyword2, keyword3">
+        <meta name="description" content="Your website description goes here">
+        <meta name="content" content="Your content goes here">
+    </head>
+    <body>
+        <h1>Basic Template</h1>
+        <nav>
+            <!-- Your navigation menu code here -->
+        </nav>
+
+        <!-- Existing content -->
+        <h1>Basic Template</h1>
+        <p><i>Education is the most powerful weapon in changing the world.</i><br> This is the quote that keeps me motivated.<br> Because its the truth, getting an Education is the key to having a better life.<br> You can do more things and get father and having an education you get better jobs,and you can help others out by teaching them some of the things you learned if i know and someone else don't know its each one teach one.</p>
+        
+        <h2>New HTML Content</h2>
+        <p>This is the new HTML content.</p>
+    </body>
+    <head>
+        <!-- Web Development CIS133DA  -->
+        <!-- Lesson-4-project10561  -->
+        <title>MAL2178207-Template</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Malek Farley-Gray">
+        <meta name="keywords" content="keyword1, keyword2, keyword3">
+        <meta name="description" content="Your website description goes here">
+        <meta name="content" content="Your content goes here">
+    </head>
+    <body>
+        <h1>Basic Template</h1>
+    </body>
+</html>
+        <body>
+            <nav>
+                <!-- Your navigation menu code here -->
+            </nav>
+
+            <!-- Existing content -->
+            <h1>Basic Template</h1>
+            <p><i>Education is the most powerful weapon in changing the world.</i><br> This is the quote that keeps me motivated.<br> Because its the truth, getting an Education is the key to having a better life.<br> You can do more things and get father and having an education you get better jobs,and you can help others out by teaching them some of the things you learned if i know and someone else don't know its each one teach one.</p>
+        </body>
+        <!-- Your HTML content here -->
+    </body>
+</html>
