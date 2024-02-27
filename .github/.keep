@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Web Development CIS133DA  -->
+        <!-- Lesson-4-project10561  -->
+        <title>MAL2178207-Template</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Malek Farley-Gray">
+        <meta name="keywords" content="keyword1, keyword2, keyword3">
+        <meta name="description" content="Your website description goes here">
+        <meta name="content" content="Your content goes here">
+    </head>
+    <body>
+        <h1>Basic Template</h1>
+        <nav>
+            <a href="#">Link</a>
+        </nav>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugit facere facilis accusantium impedit dolore distinctio est porro, id quo error alias? Totam vitae assumenda molestiae accusantium sed sapiente hic, reprehenderit atque obcaecati adipisci voluptate iste accusamus, aut commodi. Rem ipsam ullam pariatur blanditiis repudiandae consequuntur voluptatem iure incidunt eaque aut asperiores enim exercitationem necessitatibus ut corrupti quos omnis, unde minus a minima eius! Assumenda doloribus perferendis expedita magni adipisci!</h2>
+        </nav>
+
+        <!-- Existing content -->
+    </body>
+</html>
+   
