@@ -1,7 +1,6 @@
 {
     "recommendations": [
         "formulahendry.code-runner",
-        "ms-azure-devops.azure-pipelines",
-        "ecmel.vscode-html-css"
+        "ms-azure-devops.azure-pipelines"
     ]
 }
